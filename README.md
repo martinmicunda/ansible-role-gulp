@@ -39,7 +39,7 @@ Add `martinmicunda.gulp` to your roles and overwrite default vars (optional) in 
 
     - hosts: all
       roles:
-         - role: martinmicunda.bower
+         - role: martinmicunda.gulp
       vars:
          - gulp_version: "3.8.2"  
 
