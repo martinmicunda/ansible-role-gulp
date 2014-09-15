@@ -1,0 +1,8 @@
+---
+- name: Install Gulp package
+  npm: >
+   name=gulp
+   state=present
+   global=yes
+   version={{ gulp_version }}
+  tags: gulp

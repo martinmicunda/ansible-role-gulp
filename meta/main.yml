@@ -1,0 +1,16 @@
+---
+galaxy_info:
+  author: Martin Micunda
+  description: Install the latest stable version of Gulp.
+  license: MIT
+  min_ansible_version: 1.7
+  platforms:
+  - name: Ubuntu
+    versions:
+    - all
+  categories:
+  - development
+  - web
+
+dependencies:
+  - role: martinmicunda.nodejs
